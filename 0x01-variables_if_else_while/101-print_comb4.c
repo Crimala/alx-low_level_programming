@@ -22,12 +22,12 @@ int main(void)
 		{
 			for (c = b + 1; c <= '9'; c++)
 			{
-				if (a != b && b != c)
+				if ((a != b) != c)
 				{
 					putchar(a);
 					putchar(b);
 					putchar(c);
-					if (a == '8' && b == '9' && c == '9')
+					if (a == '7' && b == '8' && c == '9')
 					continue;
 						putchar(',');
 						putchar(' ');
